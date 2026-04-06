@@ -1,0 +1,14 @@
+# Stop images and directories from being pushed to git
+(COCO)*
+temp_aug_*
+*.jpg
+*.png
+*.jpeg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.venv/
